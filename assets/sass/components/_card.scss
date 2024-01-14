@@ -29,6 +29,10 @@
       margin-block-start: 3rem;
       padding: 1.3rem;
 
+      & .name {
+        display: inline-block;
+      }
+
       & .age {
         margin-inline-start: 0.2rem;
       }

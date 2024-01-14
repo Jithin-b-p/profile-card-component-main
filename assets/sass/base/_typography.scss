@@ -1,0 +1,43 @@
+body {
+  font-family: var(--ff-primary);
+  font-weight: var(--fw-regular);
+}
+
+.profile-card {
+  &__user--details {
+    text-align: center;
+    & .name,
+    & .age {
+      font-size: 1.125rem;
+    }
+
+    & .name {
+      font-weight: var(--fw-bold);
+      color: hsl(var(--clr-secondary-200));
+    }
+
+    & .age,
+    & .location {
+      color: hsl(var(--clr-secondary-100));
+    }
+
+    & .location {
+      font-size: 0.9rem;
+    }
+  }
+
+  &__user-stats {
+    text-align: center;
+    & .count {
+      font-weight: var(--fw-bold);
+      color: hsl(var(--clr-secondary-200));
+    }
+
+    & .stat {
+      margin-block-start: 0.2rem;
+      font-size: 0.6rem;
+      color: hsl(var(--clr-secondary-100));
+      letter-spacing: 1.5px;
+    }
+  }
+}
